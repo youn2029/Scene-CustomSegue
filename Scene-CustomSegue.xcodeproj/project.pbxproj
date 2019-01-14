@@ -12,6 +12,7 @@
 		4EC009D221EC759700DB0EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC009D021EC759700DB0EDB /* Main.storyboard */; };
 		4EC009D421EC759700DB0EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC009D321EC759700DB0EDB /* Assets.xcassets */; };
 		4EC009D721EC759700DB0EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC009D521EC759700DB0EDB /* LaunchScreen.storyboard */; };
+		4EC009DF21EC75C100DB0EDB /* NewSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC009DE21EC75C100DB0EDB /* NewSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4EC009D321EC759700DB0EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC009D621EC759700DB0EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC009D821EC759700DB0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC009DE21EC75C100DB0EDB /* NewSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4EC009CC21EC759700DB0EDB /* AppDelegate.swift */,
 				4EC009CE21EC759700DB0EDB /* ViewController.swift */,
 				4EC009D021EC759700DB0EDB /* Main.storyboard */,
+				4EC009DE21EC75C100DB0EDB /* NewSegue.swift */,
 				4EC009D321EC759700DB0EDB /* Assets.xcassets */,
 				4EC009D521EC759700DB0EDB /* LaunchScreen.storyboard */,
 				4EC009D821EC759700DB0EDB /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC009DF21EC75C100DB0EDB /* NewSegue.swift in Sources */,
 				4EC009CF21EC759700DB0EDB /* ViewController.swift in Sources */,
 				4EC009CD21EC759700DB0EDB /* AppDelegate.swift in Sources */,
 			);
@@ -291,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seongho.Scene-CustomSegue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seongho.Scene-CustomSegue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
