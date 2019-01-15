@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    /**
+     - 전처리 메소드
+     prepare(for segue: UIStoryboardSegue, sender: Any?){   }
+     **/
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier! == "custom_segue") {
             NSLog("커스텀 세그가 실행됩니다.")
@@ -29,7 +34,7 @@ class ViewController: UIViewController {
         // NSLog("segueway identifier : \(segue.identifier!)")
     }
     
-    // page1으로 Unwind하는 이정표 메소드
+    // page1으로 Unwind하는 이정표 메소드 - 커스텀 세그에는 안됨
     @IBAction func gotoPage1(_ segue: UIStoryboardSegue){
     }
 

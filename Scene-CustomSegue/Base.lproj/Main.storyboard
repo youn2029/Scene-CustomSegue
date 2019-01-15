@@ -80,7 +80,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pjc-Bp-0fp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="1O5-gc-R1A" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1468" y="27"/>
+            <point key="canvasLocation" x="1452" y="134"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
